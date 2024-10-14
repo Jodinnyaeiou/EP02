@@ -1,0 +1,99 @@
+
+#cabeza{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+img{
+    align-items: center;
+    width: 10%;
+}
+hr{
+    width: 95%;
+    text-align: center;
+}
+a{
+    color: rgb(14, 37, 112);
+}
+#ub{
+    width:1.5%;
+}
+.nuevo{
+    border: 1px solid black;
+    display: inline-block; 
+    background-color: white; 
+    color: black; 
+    padding: 5px 10px; 
+    border-radius: 20px; 
+}
+.navv{
+    display: inline-block; 
+    background-color: black; 
+    color: white; 
+    padding: 5px 10px; 
+    border-radius: 20px; 
+}
+.conoce{
+    text-align: center;
+    width: 100%;
+    background-color: green;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+}
+.parte1{
+    display: flex;
+}
+#ima{
+    width: 100%;
+}
+.tex{
+    width: 80%;
+    text-align: center;
+    background-color: pink;
+}
+.parte2{
+    display: flex;
+}
+#ima2{
+    width: 100%;
+}
+
+.tex2{
+    width: 70%;
+    text-align: center;
+    background-color: pink;
+}
+.cua{
+    border: 2px solid black;
+}
+.men{
+    color:rgb(14, 37, 112);
+    text-decoration: underline;
+}
+.ropa,.imeg{
+    border: 2px solid rgb(72, 129, 210);
+    background-color:  rgb(196, 227, 240);
+    
+}
+#cuerpo{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px  ;
+    
+   
+}
+.extra {
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr); 
+    gap: 10px; 
+    text-align: center;
+    height: 600px;
+}
+.extra img {
+    width: 30%; 
+    height: auto; 
+    border-radius: 50%;
+}  
+    
+
+
+
